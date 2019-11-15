@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dinner planner</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css"/>
+    <link rel="stylesheet" href="src/style.css"/>
+
+</head>
+<body>
+<!-- <div id="content-flex" class="container page-content"> -->
+<div class="container page-content">
+    <div id="loader" class="spinner-border" role="status" style="display:none">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div id="container-header" style="display:none">
+        Dinner Planner
+    </div>
+    <div id="container-home" style="display:none">
+        <!-- <button id = "startBtn" style = "margin-top: 60px; font-size: 20px;
+         color: #212529; background-color: #ffc107; border-color: #ffc107;">HELLO</button> -->
+    </div>
+    <div id="container-sidebar" class="grid-content1" style="display:none">
+    </div>
+    <div id="container-details" style="display:none">
+    </div>
+    <div id="container-search" class="grid-content2" style="display:none">
+    </div>
+    <div id="container-overview" style="display:none">
+    </div>
+    <div id="container-printout" style="display:none">
+    </div>
+</div>
+
+<!-- The application JavaScript code -->
+<script src="src/model/apiConfig.js"></script>
+<script src="src/model/dinnerModel.js"></script>
+<script src="src/view/overviewView.js"></script>
+<script src="src/view/homeView.js"></script>
+<script src="src/view/searchView.js"></script>
+<script src="src/view/sidebarView.js"></script>
+<!-- <script src="src/view/headerView.js"></script> -->
+<script src="src/view/detailsView.js"></script>
+<script src="src/view/printoutView.js"></script>
+<script src="src/app.js"></script>
+
+</body>
+</html>
